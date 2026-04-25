@@ -4,6 +4,7 @@
 #include "layout_jis.h"
 #include "layout_dvorak.h"
 #include "layout_swap_ctrl_cmd.h"
+#include "layout_winjis.h"
 
 // Ensure at least one layout is defined
 #ifndef LAYOUT_DEFINED
