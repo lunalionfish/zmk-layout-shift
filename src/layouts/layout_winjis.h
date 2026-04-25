@@ -1,6 +1,7 @@
-#ifdef CONFIG_LAYOUT_SHIFT_TARGET_JIS
+#ifdef CONFIG_LAYOUT_SHIFT_TARGET_WINJIS
 #define LAYOUT_DEFINED
 // Japanese (JIS) keyboard layout mappings
+// CtrlとCmdの入れ替えなど、Win設定からMacへの入れ替えも実施
 // Maps US layout keycodes to their JIS equivalents
 static const struct keycode_mapping layout_map[] = {
     /* from -> to, optional_modifiers */
