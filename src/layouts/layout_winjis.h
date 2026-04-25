@@ -31,7 +31,6 @@ static const struct keycode_mapping layout_map[] = {
     {RIGHT_COMMAND, RIGHT_CONTROL, OPTIONAL_ALL},
     {LC(LEFT),    LC(LG(LEFT)),  OPTIONAL_ALL},
     {LC(RIGHT),   LC(LG(RIGHT)), OPTIONAL_ALL},
-    {LG(TAB),     TAB,           OPTIONAL_ALL},
-    {LG(LS(TAB)), LS(TAB),       OPTIONAL_ALL},
+    {LGUI,        LEFT_ALT,      OPTIONAL_ALL},
 };
 #endif
