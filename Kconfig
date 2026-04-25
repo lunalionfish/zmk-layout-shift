@@ -30,6 +30,9 @@ config LAYOUT_SHIFT_TARGET_SWAP_CTRL_CMD
     help
       Swap Ctrl / Cmd for Windows / Mac.
 
+config LAYOUT_SHIFT_TARGET_WINJIS    # この行を追加
+    bool "WinJIS"                    # この行を追加
+
 endchoice
 
 config LAYOUT_SHIFT_PERSISTENT_STATE
